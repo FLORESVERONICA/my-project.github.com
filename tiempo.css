@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 95%;
+    height: 95%;
+    margin: 0;
+    background-size: cover;
+}
+
+.weather-container {
+    padding: 20px;
+    margin: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.current-weather, .hourly-forecast {
+    margin-bottom: 0px;
+}
+
+#forecast {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.forecast-hour {
+    margin: 10px;
+    text-align: center;
+}
+h1{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: white;
+}

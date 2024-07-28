@@ -1,0 +1,59 @@
+body{
+    font-family:Arial,sans-serif;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:150px;
+
+}
+
+#listado{
+    margin-bottom: 20px;
+    color: black;
+}
+input{
+    margin: 5px;
+    padding: 10px;
+    width: 200px;
+}
+button{
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #95a5a6 ;
+}
+button:hover{
+    background-color: blue;
+    color: white;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+   
+}
+li{
+    
+    color: black;
+    position: relative;
+    top: 100px;
+    right: 500px;
+    
+
+    
+
+    
+}
+a{
+    color: black;
+    
+    
+
+
+}
+button.delete{
+    border: none;
+    color: #008080;
+    cursor: pointer;
+
+
+}

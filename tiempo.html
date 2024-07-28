@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima Actual</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nabla&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="tiempo.css">
+</head>
+<body>
+    <div class="weather-container">
+        <h1>Clima en Sevilla, España</h1>
+        <div class="current-weather">
+            <h2>Clima Actual</h2>
+            <img id="current-icon" src="" alt="Icono del clima">
+            <p id="current-temp"></p>
+            <p id="current-condition"></p>
+            <p id="current-precip"></p>
+            <p id="current-humidity"></p>
+            <p id="current-wind"></p>
+        </div>
+        <div class="hourly-forecast">
+            <h2>Previsión por Horas</h2>
+            <div id="forecast"></div>
+        </div>
+    </div>
+    <script src="tiempo.js"></script>
+</body>
+</html>
